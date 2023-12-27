@@ -66,36 +66,29 @@ nav ul li a{
 }
 h1{
     color: var(--subColor);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    /* font-size: 100px; */
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 h1 span{
     color: var(--mainColor);
 }
 p{
     color: #000;
-    /* font-size: 11px; */
-    /* line-height: 25px; */
 }
 .para1{
     color: var(--subColor2);
     font-size: 19px;
+    /* padding-bottom: 100px; */
 }
 a{
     text-decoration:none;
     color:var(--subColor2)
 }
 button{
-    
-    /* width: 180px; */
     color: #000;
-    /* font-size: 12px;
-    padding: 12px 0; */
-    
     border: 0;
     border-radius: 5%;
-   
     outline: none;
     margin-top: 30px;
 }
@@ -112,18 +105,16 @@ button{
     background-color: white; 
     border: 1px solid var(--subColor2);
     color: var(--subColor2);
-    /* background-color:var(--subColor2) */
 }
 .card{
-    background-image: url(assets/someya.jpg);
-    width: 250px;
-    height: 270px;
-    
-    border-radius:0 0 0 100px;
-    /* padding: 15px 25px; */
-    box-sizing: border-box;
-    margin: 30px 30px;
-    background-position: center;
-    background-size: cover;
+   margin-left: 100px;
+}
+img{
+    width: 350px;
+    height: 400px;
     filter: drop-shadow(-15px 6px var(--subColor2));    
+    border-radius:0 0 0 100px;
+}
+.buttons{
+    padding-top: 30px;
 }
